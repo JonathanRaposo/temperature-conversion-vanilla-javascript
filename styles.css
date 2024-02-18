@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#conversion-form {
+    width: 350px;
+    height: 300px;
+    margin: 100px auto;
+    box-shadow: 1px 2px 5px #9e9999;
+    padding: 6px;
+    text-align: center;
+    border-radius: 6px;
+}
+#degree-input{
+    width: 50px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+#conversion-form div {
+    margin:10px auto;
+}
+
+#conversion-btn{
+    display: block;
+    width: 85px;
+    margin: 20px auto;
+    padding: 6px 10px;
+    font-size: 1em;
+    font-family: monospace, 'Lucida Grande';
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    background-color:#a509a5 ;
+    transition: background-color .5s;
+
+    
+    
+}
+#conversion-btn:hover{
+    background-color:#dd1ddd ;
+}
+#result{
+  
+    text-align: center;
+    font-size:1.5em;
+    font-weight: 600;
+}
